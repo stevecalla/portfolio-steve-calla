@@ -42,3 +42,33 @@ nav a {
 
 
 /* ---------- MOBILE RESPONSIVE ---------- */
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  header {
+    background: orange;
+  }
+
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  header {
+    background-color: green;
+    flex-direction: column;
+  }
+
+  header h1 {
+    margin: 2px;
+  }
+
+  nav{
+    justify-content: flex-start;
+  }
+
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  /* .sample-img {
+    background-color: #8ac4ff;
+  } */
+}
