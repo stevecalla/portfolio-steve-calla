@@ -9,6 +9,11 @@ body {
   overflow: hidden;
 }
 
+html {
+
+  font-family: 'Raleway', sans-serif;
+}
+
 /* ---------- HEADER SECTION ------------- */
 header {
   display: flex;
@@ -41,14 +46,14 @@ nav a {
 }
 
 .circle {
-  background-color: white;
+  /* background-color: white; */
+  background-color: black;
   width: 75px;
   height: 75px;
   margin-left: 20px;
   border-radius: 50%;
   animation: 
-  /* nudge 5s linear infinite alternate; */
-  nudge 3s linear 3 alternate;
+    nudge 3s linear 1 normal;
   border-radius: 100%;
 }
 
@@ -57,10 +62,12 @@ nav a {
     transform: translate(0px, 0);
   }
   50% {
-    transform: translate(150px, 0);
+    transform: translate(300px, 0);
+    background-color: white;
   }
   80% {
     transform: translate(0px, 0);
+    background-color: black;
   }
 } */
 
