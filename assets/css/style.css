@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -101,28 +101,23 @@ footer nav {
   overflow: scroll;
 }
 
-.portfolio-container p {
-  /* background: lightblue; */
-  /* width: 200px; */
-}
-
-/* .first-project {
-  display: flex;
-  align-items: flex-end;
-  z-index: 2;
-} */
-
 .first-project,
 .other-projects {
-  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: relative;
   margin: 20px;
+  height: 300px;
+}
+
+.first-project {
+  border: 2px solid lightblue;
 }
 
 .other-projects {
-  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: relative;
 }
 
 .project {
@@ -131,14 +126,11 @@ footer nav {
   align-items: flex-end;
   width: 48%;
   height: 100px;
-  /* background: lightblue; */
+  margin: 0 0 10px 0;
+  border: 2px solid lightblue;
 }
 
-.project img {
-  /* position: relative;
-  z-index: 0; */
-}
-
+.first-project p,
 .project p {
   position: absolute;
   background-color: lightblue;
