@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 body {
@@ -75,6 +75,7 @@ main {
   display: flex;
   flex-direction: column;
   height: 60vh;
+  overflow: scroll;
 }
 
 .about-me-container,
@@ -82,13 +83,7 @@ main {
 .contact-me-container {
   display: flex;
   flex-direction: row;
-  /* height: 100vh; */
-  /* min-width: 200px; */
-}
-
-.about-me-description {
-  height: 5vw;
-  overflow: scroll;
+  margin-top: 30px;
 }
 
 aside {
@@ -102,9 +97,52 @@ footer nav {
   width: 100%;
 }
 
-.portfolio-container {
-  height: 50vh;
+.work-container {
   overflow: scroll;
+}
+
+.portfolio-container p {
+  /* background: lightblue; */
+  /* width: 200px; */
+}
+
+/* .first-project {
+  display: flex;
+  align-items: flex-end;
+  z-index: 2;
+} */
+
+.first-project,
+.other-projects {
+  height: 300px;
+  margin: 20px;
+}
+
+.other-projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.project {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 48%;
+  height: 100px;
+  /* background: lightblue; */
+}
+
+.project img {
+  /* position: relative;
+  z-index: 0; */
+}
+
+.project p {
+  position: absolute;
+  background-color: lightblue;
+  z-index: 1;
 }
 
 /* ---------- FOOTER SECTION ------------- */
