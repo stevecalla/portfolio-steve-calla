@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -9,7 +9,6 @@ body {
 }
 
 /* ---------- HEADER SECTION ------------- */
-
 header {
   display: flex;
   flex-direction: row;
@@ -30,7 +29,18 @@ nav a {
 }
 
 /* ---------- MAIN SECTION ------------- */
+main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0px;
+  height: 200px;
+  background-color: lightblue;
+}
 
+main h2 {
+  margin: 0 50px 40px 0;
+}
 
 
 
