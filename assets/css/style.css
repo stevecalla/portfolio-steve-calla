@@ -10,8 +10,7 @@ body {
 }
 
 html {
-
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Nunito Sans', 'Notable', sans-serif;
 }
 
 /* ---------- HEADER SECTION ------------- */
@@ -75,6 +74,7 @@ nav a {
   position: fixed;
   right: 50px;
   color: white;
+  /* font-family: 'Notable', 'Raleway'; */
 }
 
 /* ---------- MAIN SECTION ------------- */
