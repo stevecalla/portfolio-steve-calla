@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 body {
@@ -21,6 +21,10 @@ header {
   height: 10vh;
 }
 
+header h1 {
+  margin-left: 20px;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -30,7 +34,15 @@ nav {
 }
 
 nav a {
+  width: 115px;
+  padding: 5px;
   margin: 5px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* ---------- PHOTO SECTION ------------- */
@@ -86,17 +98,40 @@ main {
 }
 
 .about-me-container,
-.work-container,
-.contact-me-container {
+.work-container {
+/* .contact-me-container { */
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 10px;
+}
+
+.about-me-description p {
+  margin: 0px;
+  margin: 0 20px 0 20px;
+  height: 140px;
+  overflow: scroll;
+  /* font-weight: 525; */
 }
 
 aside {
-  width: 20vw;
+  display: flex;
+  justify-content: flex-end;
+  width: 250px;
+  min-width: 150px;
+  border-right: 1px solid black;
+}
+
+.work-aside {
+  position: sticky;
+  top: 0;
+}
+
+aside h1 {
+  width: 150px;
+  margin-top: 0;
+  margin-right: 10px;
   text-align: right;
-  border-right: 1px solid blue;
+  font-size: 36px;
 }
 
 main article,
@@ -119,7 +154,8 @@ footer nav {
 }
 
 .first-project {
-  border: 2px solid lightblue;
+  margin-top: 0;
+  border: 2px solid black
 }
 
 .other-projects {
@@ -134,19 +170,30 @@ footer nav {
   width: 48%;
   height: 100px;
   margin: 0 0 10px 0;
-  border: 2px solid lightblue;
+  border: 2px solid black;
+  /* color: white; */
 }
 
 .first-project p,
 .project p {
   position: absolute;
-  background-color: lightblue;
+  background-color: black;
+  color: white;
   z-index: 1;
 }
 
 /* ---------- FOOTER SECTION ------------- */
 footer {
-  height: 10vh;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  display: flex;
+  flex-direction: row;
+  /* width: 250px; */
+  height: 13vh;
+  margin: 0;
+  margin-top: 0.5vh;
+  /* padding: 3vh; */
 }
 
 /* ---------- MOBILE RESPONSIVE ---------- */
@@ -170,8 +217,12 @@ footer {
     margin: 2px;
   }
 
-  nav{
+  nav {
     justify-content: center;
+  }
+
+  footer nav {
+    justify-content: flex-end;
   }
 
 }
