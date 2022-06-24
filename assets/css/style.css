@@ -6,6 +6,10 @@
   --stripe: black;
   --bg: #e1e1e1;
   --bg: white;
+  --header-height: 10vh;
+  --photo-height: 20vh;
+  --main-height: 55vh;
+  --footer-height: 15vh;
 }
 
 body {
@@ -28,7 +32,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 10vh;
+  /* height: 10vh; */
+  height: var(--header-height);
 }
 
 header h1 {
@@ -43,7 +48,8 @@ nav {
   /* flex: 1 1 300px; */
 }
 
-nav a {
+nav a,
+nav p {
   width: 115px;
   padding: 5px;
   margin: 5px;
@@ -62,7 +68,8 @@ nav a {
   align-items: center;
   align-content: center;
   margin: 0px;
-  height: 20vh;
+  /* height: 20vh; */
+  height: var(--photo-height);
   background-color: black;
 }
 
@@ -129,7 +136,8 @@ nav a {
 main {
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  /* height: 60vh; */
+  height: var(--main-height);
   overflow: scroll;
 }
 
@@ -141,19 +149,30 @@ main {
   margin-top: 10px;
 }
 
+.about-me-container {
+  height: 10vh;
+}
+
 .about-me-description p {
   margin: 0px;
   margin: 0 20px 0 20px;
-  height: 140px;
+  height: 100px;
   overflow: scroll;
   /* font-weight: 525; */
+  height: 10vh;
 }
 
+/* ------- PROJECT CONTAINTER ----------- */
+.work-container {
+  overflow: scroll;
+}
+
+/* -------- ASIDE SECTION --------------- */
 aside {
   display: flex;
   justify-content: flex-end;
-  width: 250px;
-  min-width: 150px;
+  /* width: 250px; */
+  /* min-width: 150px; */
   border-right: 1px solid black;
 }
 
@@ -170,15 +189,11 @@ aside h1 {
   font-size: 36px;
 }
 
-main article,
-footer nav {
+main article {
   width: 100%;
 }
 
-.work-container {
-  overflow: scroll;
-}
-
+/* -------- PROJECTS CONTAINTER --------- */
 .first-project,
 .other-projects {
   display: flex;
@@ -220,17 +235,18 @@ footer nav {
 
 /* ---------- FOOTER SECTION ------------- */
 footer {
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: space-between; */
   display: flex;
   flex-direction: row;
-  /* width: 250px; */
-  height: 13vh;
+  justify-content: space-between;
+  height: var(--footer-height);
   margin: 0;
   margin-top: 0.5vh;
-  /* padding: 3vh; */
 }
+
+/* 
+footer section {
+  width: 100%;
+} */
 
 /* ---------- MOBILE RESPONSIVE ---------- */
 /* Tablets - header changes color */
@@ -258,7 +274,11 @@ footer {
   }
 
   footer nav {
+    /* justify-content: flex-end; */
     justify-content: flex-end;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
   }
 
 }
