@@ -273,13 +273,12 @@ footer section {
     justify-content: center;
   }
 
-  footer nav {
-    /* justify-content: flex-end; */
+  /* footer nav {
     justify-content: flex-end;
     align-content: flex-start;
     flex-wrap: wrap;
 
-  }
+  } */
 
 }
 
@@ -288,4 +287,13 @@ footer section {
   /* .sample-img {
     background-color: #8ac4ff;
   } */
+
+  footer nav {
+    /* justify-content: flex-end; */
+    justify-content: flex-end;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+  }
+
 }
