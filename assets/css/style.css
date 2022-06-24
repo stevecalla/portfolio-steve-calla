@@ -2,11 +2,21 @@
   border: 1px solid red;
 }
 
+*  {
+  --stripe: black;
+  --bg: #e1e1e1;
+  --bg: white;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow: hidden;
+}
+
+body {
+  /* --stripe: #cfd8dc; */
 }
 
 html {
@@ -56,19 +66,41 @@ nav a {
   background-color: black;
 }
 
-.circle {
-  /* background-color: white; */
-  background-color: black;
-  width: 75px;
-  height: 75px;
-  margin-left: 20px;
-  border-radius: 50%;
-  animation: 
-    nudge 3s linear 1 normal;
-  border-radius: 100%;
+.photo-container {
+  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
 }
 
-/* @keyframes nudge {
+.circle {
+  display: flex;
+  justify-content: center;
+  width: 135px;
+  height: 130px;
+  margin-left: 20px;
+  /* background-color: white; */
+  /* background-color: black; */
+  /* border-radius: 50%; */
+  /* border-radius: 100%; */
+  /* animation: 
+    nudge 3s linear 1 normal; */
+}
+
+.circle  img {
+  width: 135px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  animation: 
+  nudge 3s linear 1 normal;
+}
+
+@keyframes nudge {
   0%, 100% {
     transform: translate(0px, 0);
   }
@@ -80,12 +112,14 @@ nav a {
     transform: translate(0px, 0);
     background-color: black;
   }
-} */
+}
 
 .subtitle {
   position: fixed;
   right: 50px;
   color: white;
+  background-color: black;
+  /* color: black; */
   /* font-family: 'Notable', 'Raleway'; */
 }
 
