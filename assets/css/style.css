@@ -9,6 +9,7 @@
   --header-height: 10vh;
   --photo-height: 20vh;
   --main-height: 55vh;
+  --main-height_mobile: 1000px;
   --footer-height: 15vh;
 }
 
@@ -59,6 +60,16 @@ nav p {
   font-weight: 600;
   text-align: center;
   text-decoration: none;
+}
+
+.material-symbols-outlined {
+  display: none;
+  font-size: 32px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 200,
+  'opsz' 40
 }
 
 /* ---------- PHOTO SECTION ------------- */
@@ -288,12 +299,45 @@ footer section {
     background-color: #8ac4ff;
   } */
 
+  /* * {
+    height: var(--main-height_mobile);
+  } */
+
+  body {
+    overflow: scroll;
+  }
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: center;
+  }
+
+  .material-symbols-outlined {
+    display: block;
+    margin-left: 5px;
+    font-size: 32px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 200,
+    'opsz' 40
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .main {
+    height: var(--main-height_mobile);
+  }
+
   footer nav {
     /* justify-content: flex-end; */
     justify-content: flex-end;
     align-content: flex-start;
     flex-wrap: wrap;
-
   }
 
 }
