@@ -1,25 +1,23 @@
 //query selector variables go here 👇
-let hamburgerMenu = document.getElementById('hamburger-menu');
-let navMenu = document.getElementById('nav-menu');
+let hamburgerMenu = document.getElementById("hamburger-menu");
+let navMenu = document.getElementById("nav-menu");
 
 //global variables go here 👇
 
 //event listeners go here 👇
-hamburgerMenu.addEventListener('click', displayMenu);
+hamburgerMenu.addEventListener("click", displayMenu);
 
 //functions and event handlers go here 👇
 function displayMenu() {
-  console.log('hello');
-  console.log('1', window.getComputedStyle(navMenu).display);
-  if (window.getComputedStyle(navMenu).display === 'none') {
-    navMenu.style.display = 'flex';
-    hamburgerMenu.style.color = 'cornflowerblue';
+  if (window.getComputedStyle(navMenu).display === "none") {
+    navMenu.style.display = "flex";
+    hamburgerMenu.style.color = "cornflowerblue";
     setInterval(() => {
-      navMenu.style.display = 'none';
-      hamburgerMenu.style.color = 'black';
+      navMenu.style.display = "none";
+      hamburgerMenu.style.color = "black";
     }, 10000);
   } else {
-    navMenu.style.display = 'none';
-    hamburgerMenu.style.color = 'black';
+    navMenu.style.display = "none";
+    hamburgerMenu.style.color = "black";
   }
 }

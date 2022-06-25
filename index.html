@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Notable&family=Nunito+Sans:ital,wght@1,600&family=Raleway:wght@100;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,200" />
-  <link rel="stylesheet" href="./assets/css/normalize.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>Calla Portfolio</title>
-</head>
-<body>
-  <header>
-    <div class="material-symbols-outlined" id='hamburger-menu'>menu</div>
-    <h1>Steve Calla</h1>
-    <nav id="nav-menu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Notable&family=Nunito+Sans:ital,wght@1,600&family=Raleway:wght@100;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,200"
+    />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Calla Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="material-symbols-outlined" id="hamburger-menu">menu</div>
+      <h1>Steve Calla</h1>
+      <nav id="nav-menu">
         <a href="#about-me-section" title="About me">ABOUT ME</a>
         <a href="#portfolio-section" tile="My portfolio">PORTFOLIO</a>
         <a href="#contact-me-section" tile="Contact me">CONTACT ME</a>
-        <a href="./assets/images/steve_calla_resume_010822v1.pdf" download target='_blank' tile="Resume">RESUME</a>
-    </nav>
-  </header>
+        <a
+          href="./assets/images/steve_calla_resume_010822v1.pdf"
+          download
+          target="_blank"
+          tile="Resume"
+          >RESUME</a
+        >
+      </nav>
+    </header>
 
     <section class="photo-container">
       <div class="circle">
-        <img src="./assets/images/3-calla-photo-cropped.png" alt="Steve Calla">
+        <img
+          src="./assets/images/3-calla-photo-cropped.png"
+          alt="Steve Calla"
+        />
       </div>
       <h2 class="subtitle">SEIZE THE DAY</h2>
     </section>
-  
+
     <main>
       <section class="about-me-container" id="about-me-section">
         <aside>
@@ -38,70 +53,114 @@
         </aside>
         <article class="about-me-description">
           <p>
-            What can I say? I live in Boulder, Colorado. I enjoy coding and learning about coding. I'm a sticklier for clean code across the board and I really enjoy all aspects from CSS to javascript. If it keeps my mind occupied, solving puzzles and creating good user experiences, it's hard to stop!!
+            What can I say? I live in Boulder, Colorado. I enjoy coding and
+            learning about coding. I'm a sticklier for clean code across the
+            board and I really enjoy all aspects from CSS to javascript. If it
+            keeps my mind occupied, solving puzzles and creating good user
+            experiences, it's hard to stop!!
           </p>
         </article>
       </section>
-  
-    <section class="work-container" id="portfolio-section">
-      <aside class="work-aside">
-        <h1>Work</h1>
-      </aside>
-      <article class="portfolio-container">
-        <div class="first-project">
-          <div class="two-images">
-            <img src="./assets/images/wordguess_white.png" alt="Bessie the Dog" loading="lazy">
-            <img src="./assets/images/wordguess_black.png" alt="Bessie the Dog" loading="lazy">
-          </div>
-          <p>Wordguess</p>
-          <a href="https://stevecalla.github.io/not_wordle_v1/" target='_blank' tile="A Wordle Clone">A Wordle Clone</a>
-        </div>
-        <div class="other-projects">
-          <div class="project">
-            <img src="./assets/images/bessie_the_dog_app.png" alt="Bessie the Dog" loading="lazy">
-            <p>Bessie the Dog</p>
-            <a href="https://stevecalla.github.io/bessie-the-dog/" target='_blank' tile="Bessie the Dog Photos">A Dog's Life</a>
-          </div>
-          <div class="project">
-            <img src="./assets/images/tic-tac-toe.png" alt="Tic Tac Toe" loading="lazy">
-            <p>Tic Tac Toe</p>
-            <a href="https://stevecalla.github.io/tictactoe/" target='_blank' tile="Tic Tac Toe">Play Now</a>
-          </div>
-          <div class="project">
-            <img src="./assets/images/css_cheatsheet.png" alt="CSS Cheatsheet" loading="lazy">
-            <p>CSS</p>
-            <a href="https://stevecalla.github.io/css-cheatsheet/" target='_blank' tile="CSS Cheatsheet">A Cheatsheet</a>
-          </div>
-          <div class="project">
-            <p>Coming Soon</p>
-            <a href="#" target='' tile="">Coming Soon</a>
-          </div>
-          <div class="project">
-            <p>Coming Soon</p>
-            <a href="#" target='' tile="">Coming Soon</a>
-          </div>
-          <div class="project">
-            <p>Coming Soon</p>
-            <a href="#" target='' tile="">Coming Soon</a>
-          </div>
-        </div>
-      </article>
-    </section>
-    
-  </main>
-  
-  <footer id='contact-me-section'>
-    <aside>
-      <h1>Contact Me</h1>
-    </aside>
-    <nav>
-      <a href="mailto:callasteven@gmail.com">Email Steve</a>
-      <a href="tel:+1(201)934-5309">201-934-7068</a>
-      <a href="https://github.com/stevecalla" target='_blank' tile="Github">Github</a>
-    </nav>
-  </footer>
 
-  <script type="text/javascript" src="app.js"></script>
-  
-</body>
+      <section class="work-container" id="portfolio-section">
+        <aside class="work-aside">
+          <h1>Work</h1>
+        </aside>
+        <article class="portfolio-container">
+          <div class="first-project">
+            <div class="two-images">
+              <img
+                src="./assets/images/wordguess_white.png"
+                alt="Bessie the Dog"
+                loading="lazy"
+              />
+              <img
+                src="./assets/images/wordguess_black.png"
+                alt="Bessie the Dog"
+                loading="lazy"
+              />
+            </div>
+            <p>Wordguess</p>
+            <a
+              href="https://stevecalla.github.io/not_wordle_v1/"
+              target="_blank"
+              tile="A Wordle Clone"
+              >A Wordle Clone</a
+            >
+          </div>
+          <div class="other-projects">
+            <div class="project">
+              <img
+                src="./assets/images/bessie_the_dog_app.png"
+                alt="Bessie the Dog"
+                loading="lazy"
+              />
+              <p>Bessie the Dog</p>
+              <a
+                href="https://stevecalla.github.io/bessie-the-dog/"
+                target="_blank"
+                tile="Bessie the Dog Photos"
+                >A Dog's Life</a
+              >
+            </div>
+            <div class="project">
+              <img
+                src="./assets/images/tic-tac-toe.png"
+                alt="Tic Tac Toe"
+                loading="lazy"
+              />
+              <p>Tic Tac Toe</p>
+              <a
+                href="https://stevecalla.github.io/tictactoe/"
+                target="_blank"
+                tile="Tic Tac Toe"
+                >Play Now</a
+              >
+            </div>
+            <div class="project">
+              <img
+                src="./assets/images/css_cheatsheet.png"
+                alt="CSS Cheatsheet"
+                loading="lazy"
+              />
+              <p>CSS</p>
+              <a
+                href="https://stevecalla.github.io/css-cheatsheet/"
+                target="_blank"
+                tile="CSS Cheatsheet"
+                >A Cheatsheet</a
+              >
+            </div>
+            <div class="project">
+              <p>Coming Soon</p>
+              <a href="#" target="" tile="">Coming Soon</a>
+            </div>
+            <div class="project">
+              <p>Coming Soon</p>
+              <a href="#" target="" tile="">Coming Soon</a>
+            </div>
+            <div class="project">
+              <p>Coming Soon</p>
+              <a href="#" target="" tile="">Coming Soon</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer id="contact-me-section">
+      <aside>
+        <h1>Contact Me</h1>
+      </aside>
+      <nav>
+        <a href="mailto:callasteven@gmail.com">Email Steve</a>
+        <a href="tel:+1(201)934-5309">201-934-7068</a>
+        <a href="https://github.com/stevecalla" target="_blank" tile="Github"
+          >Github</a
+        >
+      </nav>
+    </footer>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
 </html>

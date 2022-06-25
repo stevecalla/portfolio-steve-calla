@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-:root  {
+:root {
   --stripe: black;
   --bg: #e1e1e1;
   --bg: white;
@@ -24,7 +24,7 @@ body {
 }
 
 html {
-  font-family: 'Raleway', 'Nunito Sans', 'Notable', sans-serif;
+  font-family: "Raleway", "Nunito Sans", "Notable", sans-serif;
 }
 
 /* ---------- HEADER SECTION ------------- */
@@ -63,7 +63,7 @@ nav p {
   border-radius: 3px;
 }
 
-nav a:hover, 
+nav a:hover,
 nav p:hover {
   background-color: white;
   color: black;
@@ -73,11 +73,7 @@ nav p:hover {
 .material-symbols-outlined {
   display: none;
   font-size: 32px;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 200,
-  'opsz' 40
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 200, "opsz" 40;
 }
 
 /* ---------- PHOTO SECTION ------------- */
@@ -90,7 +86,7 @@ nav p:hover {
   padding: 0 10px 0 10px;
   background-color: black;
   height: var(--photo-height);
-  background: var(--background-pattern-zigzag)
+  background: var(--background-pattern-zigzag);
 }
 
 .circle {
@@ -102,19 +98,19 @@ nav p:hover {
   border-radius: 50%;
 }
 
-.circle  img {
+.circle img {
   width: 135px;
   height: 130px;
   border-radius: 50%;
 }
 
 .circle:hover {
-  animation: 
-  nudge 3s linear 1 normal;
+  animation: nudge 3s linear 1 normal;
 }
 
 @keyframes nudge {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(0px, 0);
   }
   50% {
@@ -246,7 +242,7 @@ main article {
 .project:nth-child(1),
 .project:nth-child(4),
 .project:nth-child(5) {
-  background: var(--background-pattern-curls)
+  background: var(--background-pattern-curls);
 }
 
 .first-project p,
@@ -356,7 +352,7 @@ footer h1 {
     height: fit-content;
   }
 
-  .first-project, 
+  .first-project,
   .other-projects {
     margin-right: 40px;
   }
@@ -392,7 +388,7 @@ footer h1 {
     color: cornflowerblue;
     font-size: 26px;
   }
-  
+
   footer nav {
     justify-content: center;
     flex-wrap: wrap;
@@ -409,9 +405,9 @@ footer h1 {
   }
 }
 
-  /* @media screen and (max-width: 650px) and (orientation: landscape) { */
-  @media (orientation: landscape) {
-    .photo-container {
-      height: 150px;
-    }
+/* @media screen and (max-width: 650px) and (orientation: landscape) { */
+@media (orientation: landscape) {
+  .photo-container {
+    height: 150px;
+  }
 }
