@@ -142,7 +142,7 @@ nav p {
   margin-right: 20px;
   color: white;
   background-color: black;
-  font-size: 38px;
+  font-size: 48px;
   /* color: black; */
   /* font-family: 'Notable', 'Raleway'; */
 }
@@ -169,9 +169,9 @@ main {
 }
 
 .about-me-description p {
-  margin: 0px;
+  /* margin: 0px; */
   margin: 0 20px 0 20px;
-  height: 100px;
+  /* height: 100px; */
   overflow: scroll;
   height: 10vh;
 }
@@ -273,7 +273,7 @@ footer section {
 /* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
   header {
-    background-color: green;
+    /* background-color: green; */
     flex-direction: column;
   }
 
@@ -293,14 +293,6 @@ footer section {
 /* Small smartphones - image placeholders change color */
 /* @media screen and (max-width: 576px) { */
 @media screen and (max-width: 650px) {
-  /* .sample-img {
-    background-color: #8ac4ff;
-  } */
-
-  /* * {
-    height: var(--main-height_mobile);
-  } */
-
   body {
     overflow: scroll;
     min-width: 375px;
@@ -321,6 +313,19 @@ footer section {
 
   header nav {
     display: none;
+  }
+
+  /* ---------- PHOTO SECTION ------------ */
+  .subtitle {
+    /* width: fit-content; */
+    /* width: auto; */
+    min-width: 75px;
+    background-color: transparent;
+    text-align: center;
+    text-align: right;
+    /* text-overflow: none; */
+    font-size: 40px;
+    /* word-break: keep-all; */
   }
 
   /* ---------- MAIN SECTION ------------- */
