@@ -15,7 +15,11 @@ function displayMenu() {
   // console.log(element.getCom)
   if (window.getComputedStyle(navMenu).display === 'none') {
     navMenu.style.display = 'flex';
-    hamburgerMenu.style.color = 'grey';
+    hamburgerMenu.style.color = 'cornflowerblue';
+    setInterval(() => {
+      navMenu.style.display = 'none';
+      hamburgerMenu.style.color = 'black';
+    }, 10000);
   } else {
     navMenu.style.display = 'none';
     hamburgerMenu.style.color = 'black';
