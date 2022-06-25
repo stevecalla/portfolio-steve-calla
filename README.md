@@ -14,11 +14,16 @@ AS an employer I WANT to view a potential employee's deployed portfolio of work 
 4. [Technologies](#technologies)
 6. [Resources](#resources)
 
-## Website Preview - Desktop View
+
+## Website Preview - Video Preview
+
+![video](https://media.giphy.com/media/EvIYpPKoJpXhnHvkjD/giphy-downsized-large.gif)
+
+## Website Preview - Desktop Static View
 
 ![screencapture-stevecalla-github-io-portfolio-steve-calla-2022-06-25-16_17_14](https://user-images.githubusercontent.com/72281855/175792048-32cef38c-344a-44f3-a2cc-8f9002549d22.png)
 
-## Website Preview - Mobile Responsive View
+## Website Preview - Mobile Responsive Static View
 
 ![screencapture-stevecalla-github-io-portfolio-steve-calla-2022-06-25-16_22_16](https://user-images.githubusercontent.com/72281855/175792135-625cbb59-6597-414f-8c07-fd55061c5c72.png)
 
