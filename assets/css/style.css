@@ -212,7 +212,7 @@ aside h1 {
   margin-top: 0;
   margin-right: 10px;
   text-align: right;
-  font-size: 36px;
+  /* font-size: 36px; */
 }
 
 main article {
@@ -407,9 +407,14 @@ footer section {
     flex-wrap: wrap;
   }
 
+  footer aside {
+    border: 0px;
+  };
+
   footer aside h1 {
-    font-size:18px;
+    font-size: 14px;
     text-align: right;
+    /* border: none; */
   }
 }
 
@@ -419,10 +424,10 @@ footer section {
       border: 1px solid red;
     }
 
-    body {
+    /* body {
       overflow-y: scroll;
       height: fit-content;
-    }
+    } */
 
     .photo-container {
       height: 150px;
