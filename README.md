@@ -15,20 +15,6 @@ AS an employer I WANT to view a potential employee's deployed portfolio of work 
 6. [Resources](#resources)
 
 
-## Website Preview - Video Preview
-
-![video](https://media.giphy.com/media/EvIYpPKoJpXhnHvkjD/giphy-downsized-large.gif)
-
-## Website Preview - Desktop Static View
-
-![screencapture-stevecalla-github-io-portfolio-steve-calla-2022-06-25-16_17_14](https://user-images.githubusercontent.com/72281855/175792048-32cef38c-344a-44f3-a2cc-8f9002549d22.png)
-
-## Website Preview - Mobile Responsive Static View
-
-![screencapture-stevecalla-github-io-portfolio-steve-calla-2022-06-25-16_22_16](https://user-images.githubusercontent.com/72281855/175792135-625cbb59-6597-414f-8c07-fd55061c5c72.png)
-
-
-
 ## Criteria
 
 ```
@@ -46,6 +32,20 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+
+
+## Website Preview - Video Preview
+
+<img src="https://media.giphy.com/media/EvIYpPKoJpXhnHvkjD/giphy-downsized-large.gif" width="100%" height="325"/>
+
+## Website Preview - Desktop Static View
+
+![screencapture-stevecalla-github-io-portfolio-steve-calla-2022-06-25-16_17_14](https://user-images.githubusercontent.com/72281855/175792048-32cef38c-344a-44f3-a2cc-8f9002549d22.png)
+
+## Website Preview - Mobile Responsive Static View
+
+![screencapture-stevecalla-github-io-portfolio-steve-calla-2022-06-25-16_22_16](https://user-images.githubusercontent.com/72281855/175792135-625cbb59-6597-414f-8c07-fd55061c5c72.png)
+
 
 ## Additional Criteria & Project Management
 
