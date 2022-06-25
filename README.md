@@ -36,7 +36,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Website Preview - Video Preview
 
-<img src="https://media.giphy.com/media/EvIYpPKoJpXhnHvkjD/giphy-downsized-large.gif" width="100%" height="325"/>
+<img src="https://media.giphy.com/media/EvIYpPKoJpXhnHvkjD/giphy-downsized-large.gif" width="100%" height="500"/>
 
 ## Website Preview - Desktop Static View
 
