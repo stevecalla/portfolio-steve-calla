@@ -405,10 +405,15 @@ footer section {
   footer aside h1 {
     font-size: 28px;
   }
+}
 
-  @media screen and (max-width: 650px) and (orientation: landscape) {
+  /* @media screen and (max-width: 650px) and (orientation: landscape) { */
+  @media (orientation: landscape) {
     * {
       border: 1px solid red;
     }
 
+    .photo-container {
+      height: 150px;
+    }
 }
