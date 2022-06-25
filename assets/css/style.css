@@ -417,6 +417,10 @@ footer section {
       border: 1px solid red;
     }
 
+    body {
+      overflow-y: scroll;
+    }
+
     .photo-container {
       height: 150px;
     }
