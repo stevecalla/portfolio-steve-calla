@@ -419,6 +419,7 @@ footer section {
 
     body {
       overflow-y: scroll;
+      height: fit-content;
     }
 
     .photo-container {
