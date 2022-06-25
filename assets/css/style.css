@@ -23,7 +23,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   /* overflow: hidden; */
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 
 html {
