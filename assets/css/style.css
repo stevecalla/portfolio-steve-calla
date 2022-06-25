@@ -1,5 +1,8 @@
 * {
   /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root  {
@@ -269,14 +272,15 @@ main article {
 .first-project a,
 .project p,
 .project a {
-  width: 150px;
-  height: 20px;
+  width: 200px;
+  /* height: 20px; */
   margin: 0px;
   padding: 5px;
   background-color: black;
   color: white;
   text-decoration: none;
   letter-spacing: 1.5px;
+  width: 100%;
 }
 
 .first-project p,
@@ -285,11 +289,13 @@ main article {
 }
 
 .first-project a {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .project a {
-  margin-bottom: 8px;
+  /* position: relative; */
+  /* width: 97%; */
+  /* margin-bottom: 8px; */
 }
 
 /* ---------- FOOTER SECTION ------------- */
