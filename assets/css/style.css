@@ -430,7 +430,7 @@ footer section {
   }
 
   header nav {
-    /* display: none; */
+    display: none;
     flex-direction: column;
     align-items: flex-end;
     align-content: center;
@@ -522,7 +522,7 @@ footer section {
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 6px) {
   * {
     /* border: 1px solid red; */
   }
