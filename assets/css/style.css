@@ -165,7 +165,7 @@ main {
   flex-direction: column;
   /* height: 60vh; */
   height: var(--main-height);
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 .about-me-container,
@@ -201,6 +201,7 @@ aside {
   /* min-width: 150px; */
   border-right: 1px solid black;
   min-width: 25vw;
+  min-width: 20vw;
 }
 
 .work-aside {
@@ -267,9 +268,16 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  align-items: center;
   height: var(--footer-height);
   margin: 0;
   margin-top: 0.5vh;
+}
+
+footer h1 {
+  display: flex;
+  align-content: center;
+  /* font-size: 24px; */
 }
 
 /* 
@@ -286,16 +294,14 @@ footer section {
 
 
 /* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   header {
-    /* background-color: green; */
     flex-direction: column;
   }
 
   header h1 {
     display: flex;
     justify-content: center;
-    /* margin: 20px; */
     margin: 8px 20px 0px 0px;
   }
 
@@ -303,11 +309,18 @@ footer section {
     justify-content: center;
   }
 
+
+  footer h1 {
+    font-size: 24px;
+    color: cornflowerblue
+  } */
+
 }
 
 /* Small smartphones - image placeholders change color */
 /* @media screen and (max-width: 576px) { */
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) { */
+@media screen and (max-width: 768px) {
   body {
     /* overflow: scroll; */
     overflow-y: scroll;
@@ -400,14 +413,16 @@ footer section {
     justify-content: center;
     align-items: center;
     /* color: red; */
-    font-size: 10px;
+    /* font-size: 10px; */
   }
 
   footer h1 {
-    color: blue;
+    /* min-width: 200px; */
+    /* color: blue; */
     color: cornflowerblue;
     font-size: 26px;
   }
+  
 
   footer nav {
     /* justify-content: flex-end; */
