@@ -394,16 +394,20 @@ footer section {
 
   /* ------- FOOTER ------------------- */
   footer {
-    align-items: center;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;;
   }
+
   footer nav {
-    justify-content: flex-end;
-    align-content: flex-start;
+    /* justify-content: flex-end; */
+    /* align-content: flex-start; */
     flex-wrap: wrap;
   }
 
   footer aside h1 {
-    font-size: 28px;
+    font-size:18px;
+    text-align: right;
   }
 }
 
