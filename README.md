@@ -51,6 +51,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 <img width="1436" alt="Screen Shot 2022-06-25 at 4 13 58 PM" src="https://user-images.githubusercontent.com/72281855/175791990-9259d7dd-3f72-4455-825e-df456c0b47b4.png">
 
+
+## Lighthouse Review
+
+<img width="1436" alt="Screen Shot 2022-06-25 at 5 10 15 PM" src="https://user-images.githubusercontent.com/72281855/175793120-82c2aef8-047d-4c98-b106-2459807149f1.png">
+
 ## Technologies
 
 1. HTML
