@@ -212,7 +212,7 @@ aside h1 {
   margin-top: 0;
   margin-right: 10px;
   text-align: right;
-  /* font-size: 36px; */
+  font-size: 36px;
 }
 
 main article {
@@ -370,7 +370,7 @@ footer section {
   }
 
   .about-me-description p {
-    margin: 0px;
+    /* margin: 0px; */
   }
 
   /* ------- PROJECT CONTAINTER ----------- */
@@ -412,7 +412,7 @@ footer section {
   };
 
   footer aside h1 {
-    font-size: 14px;
+    font-size: 18px;
     text-align: right;
     /* border: none; */
   }
