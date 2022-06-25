@@ -2,7 +2,7 @@
   /* border: 1px solid red; */
 }
 
-*  {
+:root  {
   --stripe: black;
   --bg: #e1e1e1;
   --bg: white;
@@ -11,6 +11,8 @@
   --main-height: 55vh;
   /* --main-height_mobile: 1000fpx; */
   --footer-height: 14vh;
+  --background-pattern-zigzag: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='40' height='40' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(135)'%3E%3Crect width='100%25' height='100%25' fill='black'/%3E%3Cpath d='M-20 31l10-10l10 10l10-10l10 10l10-10l10 10v-2l-10-10l-10 10l-10-10l-10 10l-10-10l-10 10zM-20-9l10-10l10 10l10-10l10 10l10-10l10 10v-2l-10-10l-10 10l-10-10l-10 10l-10-10l-10 10zM-20 71l10-10l10 10l10-10l10 10l10-10l10 10v-2l-10-10l-10 10l-10-10l-10 10l-10-10l-10 10z ' fill='black'/%3E%3Cpath d='M-20 30.5l20-20l20 20l20-20l20 20l20-20l20 20v-1l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20-9.5l20-20l20 20l20-20l20 20l20-20l20 20v-1l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20 70.5l20-20l20 20l20-20l20 20l20-20l20 20v-1l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20z ' fill='white'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+  --background-pattern-curls: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='40' height='40' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(135)'%3E%3Crect width='100%25' height='100%25' fill='rgba(247, 250, 252,1)'/%3E%3Cpath d='M20 9a 20 20 0 0 1 40 0h2a 2 2 0 0 1-4 0a 18 18 0 0 0-36 0a 2 2 0 0 1-4 0a 18 18 0 0 0-36 0h-2a 20 20 0 0 1 40 0z' fill='rgba(247, 250, 252,1)'/%3E%3Cpath d='M0 29.5a 20 20 0 0 1 40 0h1a 1 1 0 0 1-2 0a 19 19 0 0 0-38 0a 1 1 0 0 1-2 0z' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M20 49a 20 20 0 0 1 40 0h2a 2 2 0 0 1-4 0a 18 18 0 0 0-36 0a 2 2 0 0 1-4 0a 18 18 0 0 0-36 0h-2a 20 20 0 0 1 40 0z' fill='rgba(247, 250, 252,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
 }
 
 body {
@@ -100,14 +102,14 @@ nav p:focus {
 }
 
 .photo-container {
+  background: var(--background-pattern-zigzag);
   /* background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
     linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
     linear-gradient(315deg, var(--bg) 25%, transparent 25%),
     linear-gradient(45deg, var(--bg) 25%, transparent 25%);
   background-size: 100px 100px;
   background-color: var(--stripe); */
-
-  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='40' height='40' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(135)'%3E%3Crect width='100%25' height='100%25' fill='black'/%3E%3Cpath d='M-20 31l10-10l10 10l10-10l10 10l10-10l10 10v-2l-10-10l-10 10l-10-10l-10 10l-10-10l-10 10zM-20-9l10-10l10 10l10-10l10 10l10-10l10 10v-2l-10-10l-10 10l-10-10l-10 10l-10-10l-10 10zM-20 71l10-10l10 10l10-10l10 10l10-10l10 10v-2l-10-10l-10 10l-10-10l-10 10l-10-10l-10 10z ' fill='black'/%3E%3Cpath d='M-20 30.5l20-20l20 20l20-20l20 20l20-20l20 20v-1l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20-9.5l20-20l20 20l20-20l20 20l20-20l20 20v-1l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20 70.5l20-20l20 20l20-20l20 20l20-20l20 20v-1l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20z ' fill='white'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ")
+  
 }
 
 .circle {
@@ -227,12 +229,15 @@ main article {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  /* background: var(--background-pattern); */
 }
 
 .first-project {
   height: 300px;
   margin-top: 0;
-  border: 2px solid black
+  border: 2px solid black;
+  background: cornflowerblue;
 }
 
 .other-projects {
@@ -251,6 +256,13 @@ main article {
   height: 200px;
   margin: 0 0 10px 0;
   border: 2px solid black;
+  background: var(--background-pattern-zigzag);
+}
+
+.project:nth-child(1),
+.project:nth-child(4),
+.project:nth-child(5) {
+  background: var(--background-pattern-curls)
 }
 
 .first-project p,
