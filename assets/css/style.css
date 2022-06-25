@@ -522,6 +522,22 @@ footer section {
 
 }
 
+@media screen and (max-width: 650px) {
+  * {
+    /* border: 1px solid red; */
+  }
+
+  .other-projects {
+    flex-direction: column;
+    /* border: 1px solid red; */
+  }
+
+  .project {
+    width: 100%;
+  }
+
+}
+
   /* @media screen and (max-width: 650px) and (orientation: landscape) { */
   @media (orientation: landscape) {
     * {
