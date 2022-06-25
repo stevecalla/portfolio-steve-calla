@@ -146,8 +146,8 @@ main {
 
 .about-me-description p {
   margin: 0 20px 0 20px;
-  overflow: scroll;
-  height: 10vh;
+  /* overflow: scroll;
+  height: 10vh; */
 }
 
 /* -------- ASIDE SECTION --------------- */
@@ -275,7 +275,7 @@ footer {
   align-items: center;
   height: var(--footer-height);
   margin: 0;
-  margin-top: 0.5vh;
+  margin-top: 3vh;
 }
 
 footer h1 {
@@ -377,11 +377,10 @@ footer h1 {
 
   /* ------- FOOTER ------------------- */
   footer {
-    /* align-items: center; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: var(--footer-height);
+    margin-top: 0vh;
   }
 
   footer h1 {
