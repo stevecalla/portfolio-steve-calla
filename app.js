@@ -9,7 +9,6 @@ let intervalId = null;
 hamburgerMenu.addEventListener("click", displayMenu);
 window.addEventListener("resize", screenWidthDisplay);
 
-
 //functions and event handlers go here 👇
 function displayMenu() {
   if (window.getComputedStyle(navMenu).display === "none") {
@@ -27,7 +26,7 @@ function displayMenu() {
   }
 }
 
-// displayMenu function side effect = header nav menu will not display if screen width is changed durin the timeout; the function below ensures header nav menu displays >768 & clears the timeout from displayMenu if there is an overlap 
+// displayMenu function side effect = header nav menu will not display if screen width is changed durin the timeout; the function below ensures header nav menu displays >768 & clears the timeout from displayMenu if there is an overlap
 function screenWidthDisplay() {
   if (window.innerWidth > 768) {
     clearTimeout(intervalId);
