@@ -133,6 +133,7 @@ main {
 
 .about-me-description p {
   margin: 0 20px 0 20px;
+  font-weight: 500;
 }
 
 /* -------- ASIDE SECTION --------------- */
@@ -221,7 +222,7 @@ aside h1 {
 }
 
 .project p {
-  font-weight: 600;
+  font-weight: 800;
 }
 
 /* ---------- FOOTER SECTION ------------- */
@@ -267,6 +268,8 @@ footer {
     font-size: 38px;
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 200, "opsz" 40;
   }
+
+  /* ---------- SUBHEADER SUBTITLE - MOBILE------------ */
 
   .subtitle {
     font-size: 40px;
