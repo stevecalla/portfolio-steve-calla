@@ -8,6 +8,7 @@
   --black: black;
   --white: white;
   --accent-color: orange;
+  --background-color: cornflowerblue;
   --header-height: 12vh;
   --photo-height: 21vh;
   --footer-height-mobile: 10vh;
@@ -176,9 +177,13 @@ aside h1 {
   background: var(--background-pattern-curls);
 }
 
+.project:hover {
+  border: 5px solid var(--accent-color);
+}
+
 .project-one {
   flex: 0 0 100%;
-  background: cornflowerblue;
+  background: var(--background-color);
 }
 
 .multiple-images {
