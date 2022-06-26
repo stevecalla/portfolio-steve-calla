@@ -239,7 +239,6 @@ footer {
 
 /* media to small size screens - image placeholders change color */
 @media screen and (min-width: 1440px) {
-
   .photo-container,
   .photo-container img {
     width: 175px;
