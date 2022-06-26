@@ -51,7 +51,7 @@ nav a {
   margin: 5px;
   padding: 5px;
   background-color: var(--black);
-  color:  var(--white);
+  color: var(--white);
   font-size: 12px;
   font-weight: 600;
   text-decoration: none;
@@ -60,7 +60,7 @@ nav a {
 nav a:hover {
   background-color: var(--white);
   color: var(--black);
-  border: 1px solid  var(--black);
+  border: 1px solid var(--black);
 }
 
 .hamburger-menu {
@@ -102,11 +102,11 @@ nav a:hover {
   }
   50% {
     transform: translate(300px, 0);
-    background-color:  var(--white);
+    background-color: var(--white);
   }
   80% {
     transform: translate(0px, 0);
-    background-color:  var(--black);
+    background-color: var(--black);
   }
 }
 
@@ -170,7 +170,7 @@ aside h1 {
   flex: 1 0 48%;
   height: 350px;
   margin: 0 0 10px 0;
-  border: 5px solid  var(--black);
+  border: 5px solid var(--black);
   position: relative;
   background: var(--background-pattern-zigzag);
   overflow-x: hidden;
@@ -212,8 +212,8 @@ aside h1 {
   width: 100%;
   margin: 0px;
   padding: 5px;
-  background-color:  var(--black);
-  color:  var(--white);
+  background-color: var(--black);
+  color: var(--white);
   text-decoration: none;
   letter-spacing: 1.5px;
   position: relative;
@@ -258,7 +258,7 @@ footer {
     top: 9vh;
     left: 33px;
     background: var(--white);
-    border: 2px solid  var(--black);
+    border: 2px solid var(--black);
   }
 
   .hamburger-menu {
@@ -307,13 +307,12 @@ footer {
 
 /* small size screens */
 @media screen and (max-width: 650px) {
-  
   .project {
     flex: 0 0 98%;
     object-fit: contain;
   }
 
-  .multiple-images  {
+  .multiple-images {
     column-gap: 1px;
   }
 }
