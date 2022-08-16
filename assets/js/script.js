@@ -14,8 +14,12 @@ window.addEventListener("resize", screenWidthDisplay);
 
 //functions and event handlers go here 👇
 
+// DISPLAY MENU WILL RENDER THE DROP DOWN NAV MENU WHEN THE HAMBURGER MENU IS CLICKED AND THE NAV MENU STYLE DISPLAY === NONE
 function displayMenu() {
-  if (window.getComputedStyle(navMenu).display === "none") {
+  // if (window.getComputedStyle(navMenu).display === "none") {
+  if (navMenu.style.display === "none" || !navMenu.style.display) {
+    console.log('1 = ', navMenu.style.display);
+    console.log('1a = ', window.getComputedStyle(navMenu).display);
     navMenu.style.display = "flex";
     hamburgerMenu.style.color = "cornflowerblue";
     intervalId = setTimeout(() => {
@@ -23,6 +27,7 @@ function displayMenu() {
       hamburgerMenu.style.color = "black";
     }, 10000);
   } else {
+    console.log('2 = ', navMenu.style.display);
     navMenu.style.display = "none";
     hamburgerMenu.style.color = "black";
     clearTimeout(intervalId);
