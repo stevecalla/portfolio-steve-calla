@@ -1,0 +1,22 @@
+{
+  "name": "create-portfolio",
+  "version": "1.0.0",
+  "description": "``` AS an employer I WANT to view a potential employee's deployed portfolio of work samples so that I can review samples of their work and assess whether they're a good candidate for an open position ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevecalla/portfolio-steve-calla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevecalla/portfolio-steve-calla/issues"
+  },
+  "homepage": "https://github.com/stevecalla/portfolio-steve-calla#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
